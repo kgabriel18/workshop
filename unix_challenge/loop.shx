@@ -1,0 +1,1 @@
+for items in $(ls *cc.txt); do  cat $items >> country.txt ; done

@@ -1,0 +1,200 @@
+    1  git--version
+    2  git--version
+    3  bash--version
+    4  r--version
+    5  git --version
+    6  nano --version
+    7  nano
+    8  cd ~/Desktop/workshop/unix_intro
+    9  date
+   10  date -u
+   11  head example.txt
+   12  head -n 5 example.txt
+   13  head --help
+   14  man head
+   15  exit
+   16  man head
+   17  cd ~/Desktop/workshop/unix_intro
+   18  pwd
+   19  pwd
+   20  ls
+   21  exit
+   22  pwd
+   23  pwd
+   24  cd ~/Desktop/workshop/unix_intro
+   25  ~/MCB
+   26  ~/ABBS
+   27  ~Documents
+   28  ~/documents
+   29  head example.txt
+   30  head notes.txt
+   31  head experiment/notes.txt
+   32  head ABBS/MCB/homework.dox
+   33  head ABBS/MCB/homework.doc
+   34  head example.txt 
+   35  ~/documents
+   36  ls
+   37  cd experiment/
+   38  cd abbs
+   39  ls
+   40  head notes.txt 
+   41  cd ~
+   42  ~/documents/abbs
+   43  ~/documents/ABBS/MCB
+   44  ~/Documents
+   45  pwd
+   46  ls
+   47  cd documents
+   48  ls
+   49  cd college
+   50  ls
+   51  cd ABBS
+   52  cd ABBS
+   53  ~ documents
+   54  cd ..
+   55  cd ~/Desktop/workshop/unix_intro
+   56  tail example.txt 
+   57  less example.txt 
+   58  wc example.txt 
+   59  cd documents
+   60  ~/documents
+   61  ~/documents/ABBS
+   62  exit
+   63  ~/ABBS
+   64  ~/documents
+   65  cd ABBS
+   66  cd ~/Desktop/workshop/unix_intro
+   67  CP example.txt  example_copy.txt
+   68  ls
+   69  ~/documents
+   70  cd ~/abbs
+   71  cd ~/documents/
+   72  ls
+   73  cd ABBS
+   74  cd ~/documents/ABBS/MCB
+   75  CD downloads
+   76  cd ~/Desktop/workshop/unix_intro
+   77  mv example_copy.txt experiment/
+   78  ls experiment/
+   79  rm example.txt 
+   80  nano sample_names.txt
+   81  head sample_names.txt 
+   82  mkdir
+   83  mkdir subset
+   84  ls
+   85  mddir subset/
+   86  ls
+   87  rmdir experiment/
+   88  cd ~/college
+   89  cd ~/users
+   90  ~/ABBS
+   91  ~/documents
+   92  cd ~/documents
+   93  ls
+   94  cd ~/ABBS
+   95  cd ABBS
+   96  cd ABBS/
+   97  pwd
+   98  ls
+   99  cd ABBS\ /
+  100  cd ..
+  101  cd ABBS
+  102  LS
+  103  cd warfel labs
+  104  cd warfel labs
+  105  cd warfel labs
+  106  cd Warfel labs
+  107  cd Warfel
+  108  wc Dubs/
+  109  wc Dubs
+  110  wc Dubs.pdf
+  111  cd ~/Desktop/workshop/unix_intro
+  112  mv sample_names.txt sample_names_2.txt
+  113  ls
+  114  wc -l example.txt
+  115  ls
+  116  ls | wc -l
+  117  ls data/
+  118  ls data/all_samples
+  119  ls data/all_samples/ | wc -l
+  120  cd ~/documents/calibre
+  121  cd ~/documents
+  122  ls
+  123  cd Calibre Library
+  124  cd ~/Desktop/workshop/unix_intro
+  125  ls > directory_contents.txt
+  126  ls
+  127  head directory_contents.txt 
+  128  ls experiment/ > directory_contents.txt
+  129  ls experiment/ > directory_contents.txt notes.txt
+  130  ls>> directory_contents.txt 
+  131  ls >> directory_contents.txt 
+  132  head
+  133  cd ~/Desktop/workshop/unix_intro
+  134  cd data/all_samples
+  135  ls *.txt
+  136  ls *.tsv
+  137  ls *.tsv | wc -l
+  138  ls *.txt | wc -l
+  139  ls *.fq | wc -l
+  140  mkdir fastq_files
+  141  ls fastq_files/
+  142  ls *.fq
+  143  mv *.fq fastq_files/
+  144  ls fastq_files/
+  145  ls | wc -l
+  146  hitory
+  147  history
+  148  history | tail
+  149  pwd
+  150  cd fastq_files/
+  151  ls 
+  152  ls sample_1?.fq
+  153  ls sample_?.fq
+  154  cd ..
+  155  pwd
+  156  cd unix_intro
+  157  cd six_commands
+  158  cd ..
+  159  cd ..
+  160  cd six commans
+  161  cd six commands
+  162  cd six_commands/
+  163  LS
+  164  head gene_annotations.tsv
+  165  wc -l gene_annotations.tsv
+  166  cut -f 1 gene_annotations.tsv
+  167  cut -f 1 gene_annotations.tsv | head
+  168  cut -f 1,3 gene_annotations.tsv | head
+  169  cut -f 1-3 gene_annotations.tsv | head
+  170  head colors.txt
+  171  grep blue colors.txt
+  172  grep K09765 gene_annotations.tsv
+  173  grep K18979 gene_annotations.tsv
+  174  grep K18979 -c gene_annotations.tsv
+  175  head colores.txt
+  176  paste color.txt colores.txt
+  177  paste colors.txt colores.txt
+  178  my_var=TUCSON
+  179  echo my_var
+  180  echo $my_var 
+  181  pwd
+  182  cd /Users/kathering/Desktop/workshop/
+  183  ls
+  184  cd unix_intro/
+  185  new_var=welcome_back
+  186  echo $new_var
+  187  for item in earth mars venus ; do echo $item; done
+  188  for item in earth mars venus; do echo $ item;  done
+  189  for item in earth mars venus; do echo $item; echo $item > planets.txt; done
+  190  ls
+  191  head planets
+  192  head planets.txt
+  193  for item in earth mars venus; do echo $item; echo $item >> planets.txt; done
+  194  head planets.txt 
+  195  cat planets.txt 
+  196  for item in $(cat planets.txt); do echo $item; done
+  197  ls
+  198  for object in $(head directory_contents.txt); do echo $object; done
+  199  history
+  200  history > history_unix.txt

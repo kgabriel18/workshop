@@ -1,0 +1,15 @@
+experiment/:
+example_copy.txt
+notes.txt
+data
+directory_contents.txt
+experiment
+sample_names_2.txt
+six_commands
+subset
+data
+directory_contents.txt
+experiment
+sample_names_2.txt
+six_commands
+subset
